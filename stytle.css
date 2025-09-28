@@ -1,0 +1,76 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("sky.gif");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box {
+	background-color: rgb(0, 0, 5, 0.5);
+	border: 1cap solid rgb(250, 222, 249);
+	margin: 1rem;
+	box-shadow: 10px 5px 5px rgb(79, 76, 79);
+}
+
+.fixed-home {
+	position: fixed;
+	top: 10px;
+	left: 30px;
+	z-index: 1000;
+}
+
+.frisk_img {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
+
+.undertale_box {
+	background-color: black;
+	color: white;
+	border: 4px solid white;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.typewriter {
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 2px solid white;
+	animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+.card {
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+      .row > .col {
+        flex: 100%;
+        max-width: 100%;
+      }
+}
